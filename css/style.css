@@ -71,6 +71,17 @@ header h2 {
 /* Navbar */
 nav {
     text-align: center;
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+main {
+    padding-top: 60px;
 }
 
 nav>ul {
@@ -145,7 +156,7 @@ hr {
     justify-content: center;
 }
 
-#equipe_container > h3 {
+#equipe_container>h3 {
     font-size: 3em;
     font-weight: 400;
     color: #645A48;
@@ -175,23 +186,31 @@ hr {
     align-items: center;
     text-align: center;
     gap: 10px;
-
+    transition: 0.5s;
 }
-.card_image{
+
+.equipe_card:hover {
+    transform: scale(1.2);
+}
+
+.card_image {
     width: 65%;
     border-radius: 50%;
 }
-.card_name{
+
+.card_name {
     height: 15%;
     margin: 0px;
     font-size: 0.8em;
     color: #000000;
 }
-.card_description{
+
+.card_description {
     height: 15%;
     font-size: 0.7em;
 }
-.card_link{
+
+.card_link {
     height: 20px;
 }
 
@@ -225,7 +244,8 @@ hr {
 #projeto_container p {
     margin-top: 50px;
 }
-#projeto_container ul li{
+
+#projeto_container ul li {
     margin-top: 20px;
 }
 
@@ -251,6 +271,11 @@ footer {
 
 #footer_logo_ecoSwitch {
     width: 30%;
+}
+
+footer a :hover {
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 /* Responsividade */
