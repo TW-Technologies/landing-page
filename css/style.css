@@ -145,7 +145,7 @@ hr {
     justify-content: center;
 }
 
-#equipe_container h3 {
+#equipe_container > h3 {
     font-size: 3em;
     font-weight: 400;
     color: #645A48;
@@ -167,7 +167,32 @@ hr {
     width: 180px;
     height: 257px;
     background-color: #645A48;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.card_image{
+    width: 65%;
+    border-radius: 50%;
+}
+.card_name{
+    height: 15%;
+    margin: 0px;
+    font-size: 0.8em;
+    color: #000000;
+}
+.card_description{
+    height: 15%;
+    font-size: 0.7em;
+}
+.card_link{
+    height: 20px;
 }
 
 #projeto_container {
