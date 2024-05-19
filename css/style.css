@@ -187,10 +187,10 @@ hr {
     margin-top: 50px;
 }
 #logo_ecoSwitch_nome{
-    width: 40%;
+    width: 60%;
 }
 #logo_ecoSwitch_folha{
-    width: 15%;
+    width: 20%;
 }
 #projeto_container p{
     margin-top: 50px;
@@ -263,6 +263,7 @@ hr {
         }
     }
 
+    
 }
 
 /* TELAS GRANDES (LAPTOP) */
@@ -321,6 +322,10 @@ hr {
         width: 120px;
         height: 171px;
     }
+
+    #projeto_container div{
+        padding-inline: 200px;
+    }
 }
 
 /* TELAS  EXTRA GRANDES */
@@ -328,12 +333,12 @@ hr {
 
     /* HEADER */
     #header_logo {
-        width: 75vh;
+        width: 70vh;
     }
 
     #title_container {
-        top: 100px;
-        left: 5%;
+        top: 20vh;
+        left: 6vw;
     }
 
     header h2 {
@@ -384,5 +389,9 @@ hr {
     .equipe_card {
         width: 150px;
         height: 214px;
+    }
+
+    #projeto_container div{
+        padding-inline: 200px;
     }
 }
