@@ -137,7 +137,7 @@ main {
     gap: 50px;
 }
 
-#sobre_nos_container h3 {
+h3 {
     font-size: 3em;
     font-weight: 400;
     color: #645A48;
@@ -224,6 +224,8 @@ hr {
 }
 
 #projeto_container {
+    padding-top: 50px;
+    padding-bottom: -50px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -243,7 +245,7 @@ hr {
 }
 
 #logo_ecoSwitch_nome {
-    width: 60%;
+    width: 15vw;
 }
 
 #logo_ecoSwitch_folha {
